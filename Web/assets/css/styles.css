@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #CCCAAD !important; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container-username, .input-container-password {
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    width: 300px;
+    max-width: 80%;
+}
+
+input{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: #6e6e6e;
+}
+
+input::placeholder {
+    color: #6e6e6e;
+    opacity: 1;
+}
+
+.btn-connecter {
+    background-color: #8e5c4b;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-connecter:hover {
+    background-color: #654236;
+}
+
+.create-account {
+    text-align: center;
+}
+
+.create-account p {
+    margin: 5;
+}
+
+.create-account a {
+    color: #8e5c4b;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    color: #654236;
+    text-decoration: underline;
+}
